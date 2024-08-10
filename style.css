@@ -1,0 +1,222 @@
+* {
+    font-family: "Roboto", sans-serif;
+}
+/* .navbar-custom{
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5); Semi-transparan
+    z-index: 1000;
+} */
+
+.navbar-nav .nav-item {
+    position: relative;
+}
+
+/* Hover effect */
+.navbar-nav .nav-link:hover {
+    color: #ff5a91; /* Ubah warna teks saat hover */
+    position: relative;
+  }
+  
+  /* Adding an underline effect on hover */
+  .navbar-nav .nav-link:hover::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: #ff5a91;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    transition: width 0.3s ease-in-out;
+  }
+  
+  /* Active link styling */
+  .navbar-nav .nav-link.active {
+    color: #ff5a91;
+  }
+  
+  /* Active link underline */
+  .navbar-nav .nav-link.active::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: #ff5a91;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+  }
+  
+  /* Transition effect for smooth underline */
+  .navbar-nav .nav-link::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background-color: #ff5a91;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    transition: width 0.3s ease-in-out;
+  }
+  
+
+.nav-item.dropdown .dropdown-toggle:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.navbar .dropdown-menu {
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border: none;
+    transition: all 0.3s ease-in-out;
+}
+  
+.navbar .dropdown-menu .dropdown-item {
+    color: #333;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+  
+.navbar .dropdown-menu .dropdown-item:hover {
+    background-color: #ff5a91;
+    color: #ffffff;
+    border-radius: 5px;
+}
+  
+.navbar .dropdown-menu.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+  
+.navbar .dropdown-menu {
+    opacity: 0;
+    transform: translateY(10px);
+}
+  
+.navbar .dropdown-menu .dropdown-item:focus {
+    outline: none;
+    box-shadow: none;
+}
+  
+
+.custom-image{
+    background: url(img/background.png) no-repeat;
+    background-size: cover;
+    padding: 10vh;
+}
+
+.grad {
+    background-image: linear-gradient(43deg, rgb(150, 0, 0), rgb(255, 96, 96), rgb(255, 157, 157));
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.grad-about {
+    background-image: linear-gradient(30deg, #ff9d9d, #ff0000) ;
+}
+
+.hero {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('img/1338174.png') no-repeat center;
+    background-size: cover;
+}
+
+/* card */
+.card1 {
+    width: 350px;
+    height: 250px;
+    border-radius: 4px;
+    background: linear-gradient(30deg, #ffcccc, #ff0000, #ffcccc);
+    display: flex;
+    gap: 5px;
+    padding: .4em;
+  }
+  
+  .card1 p {
+    height: 100%;
+    flex: 1;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 2px;
+    transition: all .5s;
+    background: #ffffff;
+    border: 1px solid #ff5a91;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative; /* Untuk mengatur gambar di dalamnya */
+  }
+  
+  .card1 p:hover {
+    flex: 4;
+  }
+  
+  .card1 p span {
+    min-width: 14em;
+    padding: .5em;
+    text-align: center;
+    transform: rotate(-90deg);
+    transition: all .7s ease;
+    text-transform: uppercase;
+    color: #ff568e;
+    letter-spacing: .1em;
+    z-index: 1; /* Membawa teks di atas gambar */
+  }
+  
+  .card1 p:hover span {
+    transform: rotate(0);
+    opacity: 0;
+  }
+  
+  .card1 p img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    max-width: 90%;
+    max-height: 100%;
+    transition: transform .7s;
+    z-index: 0;
+    opacity: 0;
+  }
+  
+  .card1 p:hover img {
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 1;
+  }
+  
+/* end card */
+
+/* .card {
+    background-color: #f8f9fa;
+} */
+
+footer {
+    background: linear-gradient(180deg, #ff5151, #ac0000);
+  }
+  
+  footer a {
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
+  footer small {
+    color: #ccc;
+  }
+  
+  footer i {
+    font-size: 1.5rem;
+  }
+  
+  footer img {
+    max-width: 100%;
+    height: auto;
+  }
+  

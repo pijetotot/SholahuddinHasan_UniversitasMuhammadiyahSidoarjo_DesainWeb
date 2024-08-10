@@ -1,0 +1,230 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>BEM ITBA DCC KOTABUMI</title>
+    <link rel="shortcut icon" href="img/logo-removebg-preview.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar sticky-top bg-white navbar-expand-lg py-2 shadow">
+        <div class="container py-2">
+          <a href="#">
+            <img src="/img/logo-removebg-preview.png" alt="Bootstrap" width="55" height="55" class="d-inline-block align-text-bottom ms-3">
+          </a>
+          <a class="navbar-brand text-secondary ms-2" href="#">
+            BEM ITBA DCC KOTABUMI
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>      
+          <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav d-flex ms-auto me-3 mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link text-secondary fs-5" aria-current="page" href="#home">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-secondary ms-4 fs-5" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Tentang Kami
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item text-danger fw-bold" href="#visi-misi">Visi & Misi</a></li>
+                  <li><a class="dropdown-item text-danger fw-bold" href="#">Struktur</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-secondary ms-4 fs-5" href="#galeri">Galeri</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-secondary ms-4 fs-5" href="#contact">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+    <!-- End Navbar -->
+
+    <!-- Home Section -->
+<section class="home-section" id="home">
+  <div class="container-fluid">
+    <div class="row hero align-items-center" style="height: 85vh; background-color: #FF4545;">
+      <div class="col-md-5 offset-1">
+        <!-- Element to contain animated typing -->
+        <h1 class="grad fw-bold" data-aos="fade-right" data-aos-duration="1000" data-aos-anchor-placement="center-center"><span id="element"></span></h1>
+        <h4 class="text-white fw-light" data-aos="fade-right" data-aos-duration="3000">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio dolorem neque recusandae aliquam minus blanditiis?</h4>
+      </div>
+      <div class="col-md-4 d-flex align-items-center justify-content-center ms-auto me-5" data-aos="fade-left" data-aos-duration="2000">
+        <img src="img/mahasiswa.png" class="img-fluid" alt="" style="width: 500px;">  
+        <!-- <img src="img/mahasiswa.png" class="" alt="" style="transform: scaleX(-1);"> -->
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- About Section -->
+<section class="about-section py-1" id="visi-misi">
+    <div class="container-fluid custom-image">
+        <h1 class="fw-bold text-center grad" data-aos="zoom-in-down" data-aos-anchor-placement="bottom-bottom">TENTANG KAMI</h1><br>
+        <div class="row mt-5 justify-content-evenly text-white">
+          <div class="col-5 offset-1 rounded-4 d-flex flex-column justify-content-center" data-aos="fade-right" data-aos-duration="2000" data-aos-anchor-placement="bottom-bottom">
+            <h2 class="text-danger fw-bold">VISI.</h2>
+          </div>
+          <div class="grad-about col-5 rounded-4 shadow py-5 mb-3">
+            <h5 class="fw-light" data-aos="fade-left" data-aos-duration="2000" data-aos-anchor-placement="bottom-bottom">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto ducimus minima incidunt omnis consectetur velit fugiat dicta ipsam, illum cumque.</h5>
+          </div>
+          <div class="col-5 offset-1 d-flex flex-column justify-content-center" >
+            <h2 class="text-danger fw-bold" data-aos="fade-right" data-aos-duration="2000" data-aos-anchor-placement="bottom-bottom">MISI.</h2>
+          </div>
+          <div class="grad-about col-5 rounded-4 shadow py-5 my-3">
+            <ul>
+              <li>
+                <h5 class="fw-light" data-aos="fade-left" data-aos-duration="1000" data-aos-anchor-placement="bottom-bottom">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto ducimus minima incidunt omnis consectetur velit fugiat dicta ipsam, illum cumque.</h5>
+              </li>
+              <li>
+                <h5 class="fw-light" data-aos="fade-left" data-aos-duration="2000" data-aos-anchor-placement="bottom-bottom">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto ducimus minima incidunt omnis consectetur velit fugiat dicta ipsam, illum cumque.</h5>
+              </li>
+              <li>
+                <h5 class="fw-light" data-aos="fade-left" data-aos-duration="3000" data-aos-anchor-placement="bottom-bottom">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto ducimus minima incidunt omnis consectetur velit fugiat dicta ipsam, illum cumque.</h5>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </div>
+</section>
+
+<!-- Galeri Section -->
+<section class="galeri-section text-center" id="galeri">
+  <div class="container">
+    <h1 class="fw-bold text-center my-4 grad" data-aos="zoom-in-down">GALERI</h1><br>
+        <div class="row justify-content-center">
+            <div class="col-md-3 d-flex" data-aos="flip-left" data-aos-duration="1000" data-aos-anchor-placement="center-bottom">
+                <div class="card1">
+                  <p>
+                    <span>OutBound</span>
+                    <img src="img/galeri1.jpg" alt="Gambar">
+                  </p>
+                </div>
+            </div>
+            <div class="col-md-3 d-flex" data-aos="flip-left" data-aos-duration="1000" data-aos-anchor-placement="center-bottom">
+                <div class="card1">
+                  <p>
+                    <span>Seminar</span>
+                    <img src="img/galeri1.jpg" alt="Gambar">
+                  </p>
+                </div>
+            </div>
+            <div class="col-md-3 d-flex" data-aos="flip-left" data-aos-duration="1000" data-aos-anchor-placement="center-bottom">
+                <div class="card1">
+                  <p>
+                    <span>Studi Banding</span>
+                    <img src="img/galeri1.jpg" alt="Gambar">
+                  </p>
+                </div>
+            </div>
+            <div class="col-md-3 d-flex" data-aos="flip-left" data-aos-duration="1000" data-aos-anchor-placement="center-bottom">
+                <div class="card1">
+                  <p>
+                    <span>Studi Tour</span>
+                    <img src="img/galeri1.jpg" alt="Gambar">
+                  </p>
+                </div>
+            </div>
+          </div>
+          <div class="row mt-3 justify-content-center">
+            <div class="col-md-3 d-flex" data-aos="flip-left" data-aos-duration="1000" data-aos-anchor-placement="center-bottom">
+              <div class="card1">
+                <p>
+                  <span>Studi Tour</span>
+                  <img src="img/galeri1.jpg" alt="Gambar">
+                </p>
+              </div>
+          </div>
+          <div class="col-md-3 d-flex" data-aos="flip-left" data-aos-duration="1000" data-aos-anchor-placement="center-bottom">
+              <div class="card1">
+                <p>
+                  <span>Studi Tour</span>
+                  <img src="img/galeri1.jpg" alt="Gambar">
+                </p>
+              </div>
+          </div>
+          <div class="col-md-3 d-flex" data-aos="flip-left" data-aos-duration="1000" data-aos-anchor-placement="center-bottom">
+              <div class="card1">
+                <p>
+                  <span>Studi Tour</span>
+                  <img src="img/galeri1.jpg" alt="Gambar">
+                </p>
+              </div>
+          </div>
+        </div>
+  </div>
+  <svg id="wave" style="transform:rotate(0deg); transition: 0.3s" viewBox="0 0 1440 220" version="1.1" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0"><stop stop-color="rgba(255, 0, 0, 1)" offset="0%"></stop><stop stop-color="rgba(255, 255, 255, 1)" offset="100%"></stop></linearGradient></defs><path style="transform:translate(0, 0px); opacity:1" fill="url(#sw-gradient-0)" d="M0,132L80,135.7C160,139,320,147,480,135.7C640,125,800,95,960,80.7C1120,66,1280,66,1440,62.3C1600,59,1760,51,1920,55C2080,59,2240,73,2400,99C2560,125,2720,161,2880,146.7C3040,132,3200,66,3360,36.7C3520,7,3680,15,3840,44C4000,73,4160,125,4320,135.7C4480,147,4640,117,4800,102.7C4960,88,5120,88,5280,91.7C5440,95,5600,103,5760,102.7C5920,103,6080,95,6240,88C6400,81,6560,73,6720,80.7C6880,88,7040,110,7200,99C7360,88,7520,44,7680,33C7840,22,8000,44,8160,44C8320,44,8480,22,8640,22C8800,22,8960,44,9120,55C9280,66,9440,66,9600,55C9760,44,9920,22,10080,25.7C10240,29,10400,59,10560,58.7C10720,59,10880,29,11040,40.3C11200,51,11360,103,11440,128.3L11520,154L11520,220L11440,220C11360,220,11200,220,11040,220C10880,220,10720,220,10560,220C10400,220,10240,220,10080,220C9920,220,9760,220,9600,220C9440,220,9280,220,9120,220C8960,220,8800,220,8640,220C8480,220,8320,220,8160,220C8000,220,7840,220,7680,220C7520,220,7360,220,7200,220C7040,220,6880,220,6720,220C6560,220,6400,220,6240,220C6080,220,5920,220,5760,220C5600,220,5440,220,5280,220C5120,220,4960,220,4800,220C4640,220,4480,220,4320,220C4160,220,4000,220,3840,220C3680,220,3520,220,3360,220C3200,220,3040,220,2880,220C2720,220,2560,220,2400,220C2240,220,2080,220,1920,220C1760,220,1600,220,1440,220C1280,220,1120,220,960,220C800,220,640,220,480,220C320,220,160,220,80,220L0,220Z"></path><defs><linearGradient id="sw-gradient-1" x1="0" x2="0" y1="1" y2="0"><stop stop-color="rgba(255, 255, 255, 1)" offset="0%"></stop><stop stop-color="rgba(255, 0, 0, 1)" offset="100%"></stop></linearGradient></defs><path style="transform:translate(0, 50px); opacity:0.9" fill="url(#sw-gradient-1)" d="M0,110L80,106.3C160,103,320,95,480,99C640,103,800,117,960,128.3C1120,139,1280,147,1440,135.7C1600,125,1760,95,1920,73.3C2080,51,2240,37,2400,40.3C2560,44,2720,66,2880,80.7C3040,95,3200,103,3360,102.7C3520,103,3680,95,3840,110C4000,125,4160,161,4320,157.7C4480,154,4640,110,4800,95.3C4960,81,5120,95,5280,113.7C5440,132,5600,154,5760,168.7C5920,183,6080,191,6240,161.3C6400,132,6560,66,6720,47.7C6880,29,7040,59,7200,84.3C7360,110,7520,132,7680,139.3C7840,147,8000,139,8160,117.3C8320,95,8480,59,8640,47.7C8800,37,8960,51,9120,73.3C9280,95,9440,125,9600,124.7C9760,125,9920,95,10080,69.7C10240,44,10400,22,10560,25.7C10720,29,10880,59,11040,91.7C11200,125,11360,161,11440,179.7L11520,198L11520,220L11440,220C11360,220,11200,220,11040,220C10880,220,10720,220,10560,220C10400,220,10240,220,10080,220C9920,220,9760,220,9600,220C9440,220,9280,220,9120,220C8960,220,8800,220,8640,220C8480,220,8320,220,8160,220C8000,220,7840,220,7680,220C7520,220,7360,220,7200,220C7040,220,6880,220,6720,220C6560,220,6400,220,6240,220C6080,220,5920,220,5760,220C5600,220,5440,220,5280,220C5120,220,4960,220,4800,220C4640,220,4480,220,4320,220C4160,220,4000,220,3840,220C3680,220,3520,220,3360,220C3200,220,3040,220,2880,220C2720,220,2560,220,2400,220C2240,220,2080,220,1920,220C1760,220,1600,220,1440,220C1280,220,1120,220,960,220C800,220,640,220,480,220C320,220,160,220,80,220L0,220Z"></path><defs><linearGradient id="sw-gradient-2" x1="0" x2="0" y1="1" y2="0"><stop stop-color="rgba(255, 0, 0, 1)" offset="0%"></stop><stop stop-color="rgba(255, 255, 255, 1)" offset="100%"></stop></linearGradient></defs><path style="transform:translate(0, 100px); opacity:0.8" fill="url(#sw-gradient-2)" d="M0,66L80,77C160,88,320,110,480,106.3C640,103,800,73,960,84.3C1120,95,1280,147,1440,154C1600,161,1760,125,1920,117.3C2080,110,2240,132,2400,132C2560,132,2720,110,2880,102.7C3040,95,3200,103,3360,99C3520,95,3680,81,3840,73.3C4000,66,4160,66,4320,55C4480,44,4640,22,4800,44C4960,66,5120,132,5280,132C5440,132,5600,66,5760,62.3C5920,59,6080,117,6240,135.7C6400,154,6560,132,6720,124.7C6880,117,7040,125,7200,135.7C7360,147,7520,161,7680,150.3C7840,139,8000,103,8160,80.7C8320,59,8480,51,8640,73.3C8800,95,8960,147,9120,146.7C9280,147,9440,95,9600,84.3C9760,73,9920,103,10080,124.7C10240,147,10400,161,10560,168.7C10720,176,10880,176,11040,157.7C11200,139,11360,103,11440,84.3L11520,66L11520,220L11440,220C11360,220,11200,220,11040,220C10880,220,10720,220,10560,220C10400,220,10240,220,10080,220C9920,220,9760,220,9600,220C9440,220,9280,220,9120,220C8960,220,8800,220,8640,220C8480,220,8320,220,8160,220C8000,220,7840,220,7680,220C7520,220,7360,220,7200,220C7040,220,6880,220,6720,220C6560,220,6400,220,6240,220C6080,220,5920,220,5760,220C5600,220,5440,220,5280,220C5120,220,4960,220,4800,220C4640,220,4480,220,4320,220C4160,220,4000,220,3840,220C3680,220,3520,220,3360,220C3200,220,3040,220,2880,220C2720,220,2560,220,2400,220C2240,220,2080,220,1920,220C1760,220,1600,220,1440,220C1280,220,1120,220,960,220C800,220,640,220,480,220C320,220,160,220,80,220L0,220Z"></path></svg>      
+</section>
+  <!-- Footer -->
+  <footer class="bg-dark text-white py-4" id="contact">
+    <div class="container mt-4">
+      <div class="row justify-content-between">
+        <div class="col-md-4 mb-4 mb-md-0 d-flex flex-column align-items-center justify-content-center">
+          <img src="img/logo-removebg-preview.png" alt="" width="120">
+          <h5 class="mt-3">BEM ITBA DCC KOTABUMI</h5>
+        </div>
+        <div class="col-md-2 mb-4 mb-md-0">
+          <h6 class="fw-bold">Tautan</h6>
+          <ul class="list-unstyled">
+            <li><a href="#" class="text-white fw-light">Beranda</a></li>
+            <li><a href="#" class="text-white fw-light">Berita</a></li>
+            <li><a href="#" class="text-white fw-light">Tentang</a></li>
+            <li><a href="#" class="text-white fw-light">Struktur EM</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h6 class="fw-bold">Alamat</h6>
+          <p class="mb-1 fw-light">Jl. Raya Lintas Utama Sumatera No.03, Candi MAS, Kec. Abung Sel., Kabupaten Lampung Utara, Lampung 34511</p>
+          <h6 class="fw-bold mt-3">Kontak Kami</h6>
+          <p class="mb-1 fw-light"> <i class="fa-solid fa-phone"></i> &nbsp; Telp: (0721) 250766</p>
+          <p class="mb-1 fw-light"><i class="fa-solid fa-envelope"></i> &nbsp; itba@dcc.ac.id</p>
+          <p class="mb-1 fw-light"><i class="fa-solid fa-globe"></i> &nbsp; www.dcc.ac.id</p>
+        </div>
+      </div>
+      <div class="row mt-4">
+        <div class="col text-center">
+          <small>COPYRIGHT &copy; 2024 WEBSITE BADAN EKSEKUTIF MAHASISWA INSTITUT TEKNOLOGI BISNIS DAN BAHASA DIAN CIPTA CENDEKIA KOTABUMI</small>
+        </div>
+      </div>
+    </div>
+  </footer>  
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <!-- Load library from the CDN -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <!-- Setup and start animation! -->
+    <script>
+      var typed = new Typed('#element', {
+        strings: ['Selamat Datang!'],
+        typeSpeed: 100,
+        loop: true,
+        loopCount: Infinity,
+        showCursor: true,
+        cursorChar: '|',
+        autoInsertCss: true
+      });
+    </script>
+</body>
+</body>
+  </body>
+</html>
